@@ -121,7 +121,7 @@ public class Tree {
 				(numberOfItems > (int)Math.pow(2, root.levelsDown(0))-1) &&
 				(numberOfItems <= (int)Math.pow(2, root.levelsDown(0)+1)-1)
 			) return true;
-		return false;//dummy
+		return false;
 	}
 	
 	public void balance(){
